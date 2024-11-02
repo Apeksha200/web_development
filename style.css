@@ -1,0 +1,90 @@
+* {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: #0000ff68;
+  opacity: 0.6; */
+  /* background-image: url("https://media.istockphoto.com/id/1207508880/photo/silver-spheres-gravitated-towards-a-red-magnet-on-blue-background.jpg?s=2048x2048&w=is&k=20&c=n_zwhz89L5G0P-S1b8S16GL4gzvbfrrGxuYk9p06w8w=");
+  background-repeat: no-repeat; */
+  background: linear-gradient(to top right, red, orange);
+}
+
+#welcome {
+  color: red;
+  font-weight: bold;
+  background-color: aquamarine;
+  background-position: top left;
+}
+
+.para {
+  color: darkblue;
+}
+
+p#welcome {
+  color: darkgoldenrod;
+}
+
+b {
+  margin-left: 40px;
+}
+
+p {
+  border: 1px solid #000;
+  margin-left: inherit;
+  /*
+   --> border-style: grove; 
+    --> we have body-style options as inset ,outset,none,hidden as well
+  -->border-style: inset;
+  --> border-left,border-right,border-top,border-bottom
+  */
+  border-style: dotted dashed groove solid;
+  border-width: 10px;
+  border-width: 2px 4px 6px 8px;
+  border-color: blueviolet;
+  border-color: green red blueviolet orange;
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  max-width: 50%;
+  text-indent: 40px;
+}
+
+h1 {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  outline: 5px solid green;
+  /* outline offset to create a space between the border and outline */
+  outline-offset: 6px;
+  /* text-align:center,right,left,justify */
+}
+
+h3 {
+  text-align-last: center;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 10px;
+  text-decoration: overline purple solid 5px;
+}
+
+h4 {
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: lucida Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  /* instead of px we can even use em, where 16px=1em */
+  font-size: 10em;
+}
